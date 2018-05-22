@@ -1,0 +1,17 @@
+#filter类名:stat,config,encoding,logging
+datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@192.168.1.140:1521:orcl
+    username: XC_ZHQB
+    password: XC_ZHQB
+    type: com.alibaba.druid.pool.DruidDataSource
+
+    druid:
+      initial-size: 8 #初始化连接大小
+      min-idle: 5 #最小空闲连接数
+      max-active: 10 #最大连接数
+      query-timeout: 6000 #查询超时时间
+      transaction-query-timeout: 6000 #事务查询超时时间
+      remove-abandoned-timeout: 1800 #关闭空闲连接超时时间
+      filter-class-names: stat
+      filters: stat,config
