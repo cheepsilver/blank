@@ -1,4 +1,4 @@
-package com.esite.blank.core.common.xss;
+package com.esite.sso.core.common.xss;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringUtils;

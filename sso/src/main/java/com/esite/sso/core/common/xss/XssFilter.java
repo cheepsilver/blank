@@ -1,4 +1,4 @@
-package com.esite.blank.core.common.xss;
+package com.esite.sso.core.common.xss;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

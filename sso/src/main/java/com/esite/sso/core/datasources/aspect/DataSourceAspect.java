@@ -1,10 +1,10 @@
-package com.esite.blank.core.datasources.aspect;
+package com.esite.sso.core.datasources.aspect;
 
 
 
-import com.esite.blank.core.datasources.DataSourceNames;
-import com.esite.blank.core.datasources.DynamicDataSource;
-import com.esite.blank.core.datasources.annotation.DataSource;
+import com.esite.sso.core.datasources.DataSourceNames;
+import com.esite.sso.core.datasources.DynamicDataSource;
+import com.esite.sso.core.datasources.annotation.DataSource;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;

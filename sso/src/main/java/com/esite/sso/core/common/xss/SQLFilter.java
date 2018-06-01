@@ -1,6 +1,6 @@
-package com.esite.blank.core.common.xss;
+package com.esite.sso.core.common.xss;
 
-import com.esite.blank.core.common.exception.RRException;
+import com.esite.sso.core.common.exception.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**

@@ -1,4 +1,4 @@
-package com.esite.blank.core.helper;
+package com.esite.sso.core.helper;
 
 import java.security.MessageDigest;
 import java.text.SimpleDateFormat;
